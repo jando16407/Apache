@@ -35,4 +35,19 @@ Move to users folder and check if you have a config file named after username su
 
 		yourusername.conf
 
-If not, make one.
+If not, make one and add below code to the conf file.
+
+		<Directory "/Users/YourUsername/Sites/">
+            Options Indexex MultiViews
+            AllowOverride All
+            Order allow, deny
+            Allow from all
+		</Directory>
+
+Change access mode to give apache access
+
+		sudo chmod 644 YourUserName.conf
+
+Restart Apache by typing
+
+		sudo apachectl restart
