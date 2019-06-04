@@ -51,3 +51,8 @@ Change access mode to give apache access
 Restart Apache by typing
 
 		sudo apachectl restart
+
+
+Ref:
+https://medium.com/@JohnFoderaro/how-to-set-up-apache-in-macos-sierra-10-12-bca5a5dfffba
+https://www.adrianprieto.com/installing-apache-php-and-mysql-on-mac-os-x/
